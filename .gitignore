@@ -1,0 +1,9 @@
+.DS_Store
+.serverless
+*.pyc
+package-lock.json
+.dynamodb
+node_modules/*
+.idea/*
+env/*
+__pycache__

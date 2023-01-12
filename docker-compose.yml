@@ -1,0 +1,12 @@
+version: "3"
+services:
+  fastapi:
+    build: .
+    container_name: "fastapi"
+    tty: true
+    volumes:
+      - .:/usr/src
+    environment:
+      - STAGE=local
+    ports:
+      - "8000:8000"
